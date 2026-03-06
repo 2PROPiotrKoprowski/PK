@@ -21,7 +21,7 @@
 
         echo "Imię: " . $imie . "<br>";
         echo "Rok urodzenia: " . $rok_ur . "<br>";
-        echo "Komentarz: " . $kom;
+        echo "Komentarz: " . $kom;        
     }
     ?>
 </body>
