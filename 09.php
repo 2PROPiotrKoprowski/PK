@@ -12,10 +12,10 @@
             <th>Imię</th>
             <th>Nazwisko</th>
         </tr>
-        <?php
-        $conn = mysqli_connect('localhost', 'root', '', 'school');
-        if(!$conn){
-            die("Błąd połączenia z bazą danych: " . mysqli_connect_error());
+    <?php
+    $conn = mysqli_connect('localhost', 'root', '', 'school');
+    if(!$conn){
+        die("Błąd połączenia z bazą danych: " . mysqli_connect_error());
     }
     echo "HURA! Połączenie z bazą danych udane<br>";
     $sql = "SELECT * FROM students";
@@ -29,7 +29,8 @@
     else {
         echo "Brak danych<br>";
     }
-
+    
     ?>
+    </table>
 </body>
 </html>
