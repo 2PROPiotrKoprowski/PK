@@ -1,0 +1,42 @@
+body{
+    font-family: Tahoma;
+}
+header, footer{
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+}
+#lewy, #prawy{
+    width: 50%;
+    height: 500px;
+}
+#lewy{
+    background-color: lightsalmon;
+    float: left;
+}
+#prawy{
+    background-color: darksalmon;
+    float: right;
+}
+h1, h2, h3{
+    text-align: center;
+}
+table, td{
+    border: 1px solid maroon;
+    width: 85%;
+    margin: auto;
+}
+ol{
+    list-style: none;
+}
+button{
+    background-color: maroon;
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+footer{
+    clear: both;
+}

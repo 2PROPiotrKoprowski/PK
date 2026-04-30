@@ -1,0 +1,43 @@
+*{
+    font-family: Helvetica;
+}
+body{
+    background-color: lightsalmon;
+    text-align: center;
+}
+#blok-lewy-gora{
+    width: 30%;
+    height: 400px;
+    float: left;
+}
+#blok-lewy-dol{
+    background-color: darksalmon;
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+#blok-prawy{
+    background-color: darksalmon;
+    width: 70%;
+    height: 500px;
+    overflow: auto;
+    float: right;
+}
+img{
+    width: 100%
+}
+#blok-prawy p{
+    font-size: 200%;
+    font-style: italic;
+    padding: 10px;
+}
+#blok-prawy p:hover{
+    color: ghostwhite;
+}
+table, td{
+    border: 1px dotted maroon;
+}
+table{
+    width: 70%;
+    margin: auto;
+}
